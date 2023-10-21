@@ -51,6 +51,7 @@
 		2DB5B3BB2AE39D6800DAEDBC /* LoginViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB5B3BA2AE39D6800DAEDBC /* LoginViewViewModel.swift */; };
 		2DB5B3BD2AE39D7100DAEDBC /* RegisterViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB5B3BC2AE39D7100DAEDBC /* RegisterViewViewModel.swift */; };
 		2DB5B3BF2AE39D7B00DAEDBC /* TodoListItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB5B3BE2AE39D7B00DAEDBC /* TodoListItemViewViewModel.swift */; };
+		2DB5B3C12AE39FC600DAEDBC /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB5B3C02AE39FC600DAEDBC /* HeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -75,6 +76,7 @@
 		2DB5B3BA2AE39D6800DAEDBC /* LoginViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewViewModel.swift; sourceTree = "<group>"; };
 		2DB5B3BC2AE39D7100DAEDBC /* RegisterViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewViewModel.swift; sourceTree = "<group>"; };
 		2DB5B3BE2AE39D7B00DAEDBC /* TodoListItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListItemViewViewModel.swift; sourceTree = "<group>"; };
+		2DB5B3C02AE39FC600DAEDBC /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +160,7 @@
 				2DB5B3A82AE39CAA00DAEDBC /* LoginView.swift */,
 				2DB5B3AA2AE39CB600DAEDBC /* RegisterView.swift */,
 				2DB5B3AC2AE39CD500DAEDBC /* TodoListItemView.swift */,
+				2DB5B3C02AE39FC600DAEDBC /* HeaderView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -296,6 +299,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DB5B3B12AE39D0F00DAEDBC /* TodoListItem.swift in Sources */,
+				2DB5B3C12AE39FC600DAEDBC /* HeaderView.swift in Sources */,
 				2DB5B3BF2AE39D7B00DAEDBC /* TodoListItemViewViewModel.swift in Sources */,
 				2DB5B3A92AE39CAA00DAEDBC /* LoginView.swift in Sources */,
 				2DB5B3BD2AE39D7100DAEDBC /* RegisterViewViewModel.swift in Sources */,
