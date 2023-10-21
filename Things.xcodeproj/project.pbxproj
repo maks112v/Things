@@ -53,6 +53,7 @@
 		2DB5B3BF2AE39D7B00DAEDBC /* TodoListItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB5B3BE2AE39D7B00DAEDBC /* TodoListItemViewViewModel.swift */; };
 		2DB5B3C12AE39FC600DAEDBC /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB5B3C02AE39FC600DAEDBC /* HeaderView.swift */; };
 		2DB5B3C32AE40FFF00DAEDBC /* TButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB5B3C22AE40FFF00DAEDBC /* TButton.swift */; };
+		2DB5B3C52AE455AD00DAEDBC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB5B3C42AE455AD00DAEDBC /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -79,6 +80,7 @@
 		2DB5B3BE2AE39D7B00DAEDBC /* TodoListItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListItemViewViewModel.swift; sourceTree = "<group>"; };
 		2DB5B3C02AE39FC600DAEDBC /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		2DB5B3C22AE40FFF00DAEDBC /* TButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TButton.swift; sourceTree = "<group>"; };
+		2DB5B3C42AE455AD00DAEDBC /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -197,6 +199,7 @@
 				2DB5B3612AE399D000DAEDBC /* Assets.xcassets */,
 				2DB5B39C2AE39A5400DAEDBC /* GoogleService-Info.plist */,
 				2DB5B35D2AE399CF00DAEDBC /* ThingsApp.swift */,
+				2DB5B3C42AE455AD00DAEDBC /* Extensions.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -316,6 +319,7 @@
 				2DB5B3AF2AE39D0300DAEDBC /* User.swift in Sources */,
 				2DB5B3BB2AE39D6800DAEDBC /* LoginViewViewModel.swift in Sources */,
 				2DB5B3AD2AE39CD500DAEDBC /* TodoListItemView.swift in Sources */,
+				2DB5B3C52AE455AD00DAEDBC /* Extensions.swift in Sources */,
 				2DB5B3C32AE40FFF00DAEDBC /* TButton.swift in Sources */,
 				2DB5B35E2AE399CF00DAEDBC /* ThingsApp.swift in Sources */,
 				2DB5B3A72AE39C9A00DAEDBC /* NewItemView.swift in Sources */,

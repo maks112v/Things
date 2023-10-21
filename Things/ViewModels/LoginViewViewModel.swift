@@ -23,6 +23,8 @@ class LoginViewViewModel: ObservableObject {
         }
         
         print("Called")
+        
+        Auth.auth().signIn(withEmail: email, password: password)
     }
     
     func validate() -> Bool {
