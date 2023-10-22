@@ -30,7 +30,7 @@ class NewItemViewViewModel: ObservableObject {
         let db = Firestore.firestore()
         
         let newId = UUID().uuidString
-        let newItem = TodolistItem(id: newId, title: title, dueDate: dueDate.timeIntervalSince1970, createdDate: Date().timeIntervalSince1970, isDone: false)
+        let newItem = TodoListItem(id: newId, title: title, dueDate: dueDate.timeIntervalSince1970, createdDate: Date().timeIntervalSince1970, isDone: false)
         
         db.collection("users")
             .document(uid)
