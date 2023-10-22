@@ -16,11 +16,6 @@ class TodoListViewViewModel: ObservableObject {
         self.userId = userId
     }
     
-    func toggleIsDone(item: TodoListItem) {
-        
-    }
-    
-    
     /// Delete to do list item
     /// - Parameter id: Todo Item Id
     func delete(id: String) {

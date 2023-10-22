@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D6B4CE02AE4DB9E00093BD4 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D6B4CDF2AE4DB9E00093BD4 /* Launch Screen.storyboard */; };
 		2DB5B35E2AE399CF00DAEDBC /* ThingsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB5B35D2AE399CF00DAEDBC /* ThingsApp.swift */; };
 		2DB5B3602AE399CF00DAEDBC /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB5B35F2AE399CF00DAEDBC /* MainView.swift */; };
 		2DB5B3622AE399D000DAEDBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DB5B3612AE399D000DAEDBC /* Assets.xcassets */; };
@@ -57,6 +58,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2D6B4CDF2AE4DB9E00093BD4 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		2DB5B35A2AE399CF00DAEDBC /* Things.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Things.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DB5B35D2AE399CF00DAEDBC /* ThingsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThingsApp.swift; sourceTree = "<group>"; };
 		2DB5B35F2AE399CF00DAEDBC /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -200,6 +202,7 @@
 				2DB5B39C2AE39A5400DAEDBC /* GoogleService-Info.plist */,
 				2DB5B35D2AE399CF00DAEDBC /* ThingsApp.swift */,
 				2DB5B3C42AE455AD00DAEDBC /* Extensions.swift */,
+				2D6B4CDF2AE4DB9E00093BD4 /* Launch Screen.storyboard */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -293,6 +296,7 @@
 			files = (
 				2DB5B3652AE399D000DAEDBC /* Preview Assets.xcassets in Resources */,
 				2DB5B3622AE399D000DAEDBC /* Assets.xcassets in Resources */,
+				2D6B4CE02AE4DB9E00093BD4 /* Launch Screen.storyboard in Resources */,
 				2DB5B39D2AE39A5400DAEDBC /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -464,6 +468,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -493,6 +498,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
