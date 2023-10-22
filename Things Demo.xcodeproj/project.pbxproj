@@ -123,7 +123,7 @@
 		2DB5B3512AE399CF00DAEDBC = {
 			isa = PBXGroup;
 			children = (
-				2DB5B35C2AE399CF00DAEDBC /* Things Demo */,
+				2DB5B35C2AE399CF00DAEDBC /* Things */,
 				2DB5B35B2AE399CF00DAEDBC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -136,7 +136,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2DB5B35C2AE399CF00DAEDBC /* Things Demo */ = {
+		2DB5B35C2AE399CF00DAEDBC /* Things */ = {
 			isa = PBXGroup;
 			children = (
 				2DB5B3A12AE39B8000DAEDBC /* Other */,
@@ -145,7 +145,7 @@
 				2DB5B39E2AE39B4900DAEDBC /* Views */,
 				2DB5B3632AE399D000DAEDBC /* Preview Content */,
 			);
-			path = "Things Demo";
+			path = Things;
 			sourceTree = "<group>";
 		};
 		2DB5B3632AE399D000DAEDBC /* Preview Content */ = {
